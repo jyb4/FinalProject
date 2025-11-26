@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- DEVELOPER: Juan Baez, IS117-005, Fall 2025 -->
+    <meta charset="UTF-8">
+    <title>Baseball 101</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+            <!-- Brand -->
+            <a class="navbar-brand" href="index.html"><img src="images/logo.png"></a>
+            <h1 class="logo-name">Baseball 101</h1>
+            <!-- Responsive Button for the smaller menu -->
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <!-- Links -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbardrop"
+                           data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Game Basics
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="baseballIntro.html">Introduction To Baseball</a>
+                            <a class="dropdown-item" href="baseballTerms.html">Baseball Terms</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                           data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Explore The Game
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="featuredPlayers.html">Featured Players</a>
+                            <a class="dropdown-item" href="teamGuide.html">MLB Team Guide</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="wall">
+            <div class="wall-text">
+            <h1>Introduction To Baseball</h1>
+            <p>Master the fundamentals of America's pastime with our comprehensive beginner's guide.</p>
+            </div>
+        </div>
+    </div>
+    <h2>Understanding The Game</h2>
+
+    <div class="info-grid">
+        <div class="info-card">
+                <h5>The Objective</h5>
+                <p>
+                    Baseball is played between two teams of nine players each. The goal is to score more runs than the opposing team by hitting a ball and running around four bases arranged in a diamond shape.
+                    A run is scored when a player successfully touches all four bases and returns to home plate.
+                </p>
+        </div>
+        <div class="info-card">
+                <h5>How The Game Works</h5>
+                <p>
+                    A baseball game consists of nine innings. Each inning has two halves - the top (visiting team bats) and bottom (home team bats). Teams alternate between batting and fielding.
+                    The batting team tries to score runs while the fielding team tries to get three outs to end the half-inning.
+                </p>
+        </div>
+        <div class="info-card">
+            <h5>Basic Rules</h5>
+            <p>A batter gets three strikes before they're out.
+                Four balls (pitches outside the strike zone) result in a walk to first base. Batters can hit the ball into fair territory and run to bases. Fielders catch fly balls for outs or throw to bases before runners arrive.
+                Three outs end the team's turn at bat.</p>
+        </div>
+        <div class="info-card">
+            <h5>Winnig the Game</h5>
+            <p>The team with the most runs after nine innings wins. If tied after nine innings, extra innings are played until one team has more runs at the end of a complete inning.
+                Unlike many sports, there's no game clock - games end when all innings are complete.</p>
+        </div>
+    </div>
+    <h2>Fielding Positions</h2>
+    <div class="positions-grid">
+        <div class="position-card">
+        <h5>Catcher (C)</h5>
+        </div>
+        <div class="position-card">
+            <h5>Pitcher (P)</h5>
+        </div>
+        <div class="position-card">
+            <h5>First Base (1B)</h5>
+        </div>
+        <div class="position-card">
+            <h5>Second Base (2B)</h5>
+        </div>
+        <div class="position-card">
+            <h5>Third Base (3B)</h5>
+        </div>
+        <div class="position-card">
+            <h5>Shortstop (SS)</h5>
+        </div>
+        <div class="position-card">
+            <h5>Left Field (LF)</h5>
+        </div>
+        <div class="position-card">
+            <h5>Center Field (CF)</h5>
+        </div>
+        <div class="position-card">
+            <h5>Right Field (RF)</h5>
+        </div>
+    </div>
+
+
+    <!------------------------------->
+    <footer class="footer page-footer font-small ">
+        <div class="container">
+            <div class="row">
+                <span class="text-muted">&copy; Baez Juan, 2025 |  Terms Of Use  |  Privacy Statement</span>
+            </div>
+        </div>
+    </footer>
+</div>
+
+
+<!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+</body>
+</html>

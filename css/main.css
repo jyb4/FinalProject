@@ -1,3 +1,4 @@
+
 .footer {
     position: fixed;
     left: 0;
@@ -7,5 +8,381 @@
     color: white;
     text-align: center;
     padding: 10px;
-    font-size: 0.5rem;
+    font-size: 1rem;
 }
+
+
+.navbar{
+    background-color: whitesmoke !important;
+    padding: 15px;
+    z-index: 50;
+    position: fixed;
+
+}&
+.navbar-nav{
+    margin-left: auto;
+}&
+ .nav-link{
+    font-size: 1.2em;
+    margin-left: 25px;
+}
+
+ .navbar .nav-link{
+     color: #000050 !important;
+     padding: 3px 6px;
+     border-radius: 10px;
+ }
+ 
+
+ .navbar-brand img{
+     height: 40px;
+     width: auto;
+
+ }
+
+ .navbar-toggler{
+    margin-left: auto;
+ }
+
+ .logo-name{
+     font-size: 1.2em;
+     margin:0;
+     color: #000050 !important;
+ }
+
+.dropdown-item{
+    color: #000050 !important;
+    padding: 2px 6px;
+    border-radius: 10px;
+}
+
+ .nav-link:hover{
+     background-color: #e72324 !important;
+     border-radius: 10px;
+     color: white !important;
+ }
+
+.dropdown-item:hover{
+    background-color: #e72324 !important;
+    border-radius: 10px;
+    color: white !important;
+
+}
+
+.navbar-nav .nav-link.active {
+    background-color: #000050;
+    color: white !important;
+    border-radius: 5px;
+}
+
+.navbar-nav .nav-link.active {
+    background-color: #000050;
+    color: white !important;
+}
+
+
+
+.navbar-toggler{
+    filter: invert(100%);
+    border: none;
+}
+
+
+.carousel{
+    width: 100%;
+    position: relative;
+    margin: 0 0 30px 0;
+    padding: 0;
+
+}
+
+.carousel-img{
+    display: block;
+    width: 100%;
+    height: 60vh;
+    margin-top: 82px;
+}
+
+.poster-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60vh;
+    margin-top: 82px;
+    background-color: rgba(56, 57, 68, 0.65);
+    z-index: 1;
+}
+.poster-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 2;
+}
+
+.poster-text h1{
+    font-size: 4rem;
+}
+.poster-text p{
+    font-size: 2em;
+}
+@media (max-width: 768px){
+    .carousel-img,
+    .poster-overlay{
+        height: 40vh;
+    }
+    .poster-text h1{
+        font-size: 2rem;
+    }
+
+    .poster-text p{
+        font-size: 1.3rem;
+    }
+    .row > .col-4 {
+        flex: 0 0 100%;
+        min-width: 100%;
+        margin-bottom: 15px;
+    }
+}
+h2{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 40px;
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.row > .col-4{
+    flex: 0 0 32%;
+    display: flex;
+    max-width: 32%;
+    flex-direction: column;
+}
+
+.row > .col-4 .card{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: black solid 1px;
+    border-radius: 15px;
+}
+.row > .col-4 .card:hover{
+    box-shadow: black 5px 5px;
+}
+
+.cards-container{
+    margin-bottom: 100px;
+}
+
+.card-body h5{
+    font-size: 1.8rem;
+}&
+ .card-body p{
+    font-size: 1.5rem;
+    color: grey;
+ }
+
+ .wall{
+     height: 350px;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     background: linear-gradient(90deg, #102e52, #1e4c87, #204e8b);
+     color: white;
+     padding: 20px;
+     margin-top: 80px;
+ }
+
+ .wall-text h1{
+     font-size: 3rem;
+     margin-bottom: 15px;
+ }
+ .wall-text p{
+     font-size: 1.3rem;
+ }
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    max-width: 1100px;
+    margin: 50px auto;
+}
+
+.info-card {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 30px;
+    min-height: 260px;
+}
+
+.info-card:hover{
+    box-shadow: black 5px 5px;
+}
+
+.info-card h5 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+}
+
+.info-card p {
+    color: grey;
+    font-size: 1.3rem;
+}
+
+/* Title spacing */
+.section-title {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.positions-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+    margin-bottom: 100px;
+}
+
+.position-card{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.position-card:hover{
+    box-shadow: black 5px 5px;
+}
+.position-card h5{
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+
+.terms-grid{
+    display: block;
+    padding: 20px;
+    margin-bottom: 60px;
+}
+
+.terms{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 16px;
+}
+
+.terms h5{
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+}
+.terms p{
+    color: grey;
+    font-size: 1.3rem;
+}
+
+.terms:hover{
+    box-shadow: black 5px 5px;
+}
+
+.players-grid{
+    display: block;
+    padding: 20px;
+    margin-bottom: 60px;
+}
+
+.featured-player{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 16px;
+}
+
+.featured-player h5{
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+}
+
+.featured-player p{
+    color: grey;
+    font-size: 1.3rem;
+}
+
+.featured-player ul{
+    margin: 0;
+}
+
+.featured-player ul li{
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.featured-player h6{
+    font-size: 1.2rem;
+}
+
+.team-cards{
+    display: block;
+    padding: 20px;
+    margin-bottom: 60px;
+
+}
+
+.cards-body{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 16px;
+}
+
+.cards-body p {
+    margin: 4px 0;
+    font-size: 1.2rem;
+    color: grey;
+}
+.cards-body:hover{
+    box-shadow: black 5px 5px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.form-container {
+    margin-top: 100px;
+}
+
+label{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- DEVELOPER: Juan Baez, IS117-005, Fall 2025 -->
     <meta charset="UTF-8">
-    <title>My First Bootstrap Page</title>
+    <title>Baseball 101</title>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
           rel="stylesheet"
@@ -20,7 +21,8 @@
                     col-12">
 
                 <!-- Brand -->
-                <a class="navbar-brand" href="#">Logo</a>
+                <a class="navbar-brand" href="index.html"><img src="images/logo.png"></a>
+                <h1 class="logo-name">Baseball 101</h1>
                 <!-- Responsive Button for the smaller menu -->
                 <button class="navbar-toggler" type="button"
                         data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -30,54 +32,105 @@
                     <ul class="navbar-nav">
                         <!-- Links -->
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link 1</a>
+                            <a class="nav-link active" href="index.html">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link 2</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-
                         <!-- Dropdown -->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
                                data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Education
+                                Game Basics
                             </a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Link 1</a>
-                                <a class="dropdown-item" href="#">Link 2</a>
-                                <a class="dropdown-item" href="#">Link 3</a>
-                                <a class="dropdown-item" href="#">Link 4</a>
+                                <a class="dropdown-item" href="baseballIntro.html">Introduction To Baseball</a>
+                                <a class="dropdown-item" href="baseballTerms.html">Baseball Terms</a>
                             </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Explore The Game
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="featuredPlayers.html">Featured Players</a>
+                                <a class="dropdown-item" href="teamGuide.html">MLB Team Guide</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
                         </li>
                     </ul>
                 </div>
             </nav>
-        <div class="row">
-        <p class="col-1">Col 1</p>
-        <p class="col-1">Col 2</p>
-        <p class="col-1">Col 3</p>
-        <p class="col-1">Col 4</p>
-        <p class="col-1">Col 5</p>
-        <p class="col-1">Col 6</p>
-        <p class="col-1">Col 7</p>
-        <p class="col-1">Col 8</p>
-        <p class="col-1">Col 9</p>
-        <p class="col-1">Col 10</p>
-        <p class="col-1">Col 11</p>
-        <p class="col-1">Col 12</p>
+        <div class="carousel">
+            <img src="images/poster.webp" alt="" class="carousel-img">
+            <div class="poster-overlay"></div>
+            <div class="poster-text">
+            <h1>Learn Baseball the Easy Way</h1>
+            <p>Your beginner-friendly guide to understanding America's favorite pastime.
+            From basic rules to legendary players, we've got you covered.</p>
+            </div>
         </div>
-    <div class="col-sm-4  text-center">
-        <h2>h2 Bootstrap heading (24px)</h2>
-        <h3>h2 Bootstrap heading (18px)</h3>
-    </div>
+        <h2>Explore Baseball:</h2>
+        <div class="cards-container mt-5">
+            <div class="row">
+
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5>Intro To Baseball</h5>
+                            <p>Learn the basic rules, positions, and how the game works</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5>Baseball Terms</h5>
+                            <p>Understand common terms and stats like RBI, ERA, and slugging percentage.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5>Featured Players</h5>
+                            <p>Discover legendary players and their incredible achievements in baseball history</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 mt-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5>MLB Team Guide</h5>
+                            <p>Explore all 30 MLB teams with history, and fun facts.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 mt-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5>Contact Us</h5>
+                            <p>Have questions? Reach out and let us help you.</p>
+                        </div>
+                    </div>
+                </div><div class="col-4 mt-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5>Learn More</h5>
+                        <p>Dive deeper into baseball strategy, and its history.</p>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
 </div>
  <footer class="footer page-footer font-small ">
      <div class="container">
         <div class="row">
-            <span class="text-muted">&copy; Art Hendela, 2021 |  Terms Of Use  |  Privacy Statement</span>
+            <span class="text-muted">&copy; Baez Juan, 2025 |  Terms Of Use  |  Privacy Statement</span>
         </div>
      </div>
   </footer>

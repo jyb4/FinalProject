@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- DEVELOPER: Juan Baez, IS117-005, Fall 2025 -->
+    <meta charset="UTF-8">
+    <title>Baseball 101</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+            <!-- Brand -->
+            <a class="navbar-brand" href="index.html"><img src="images/logo.png"></a>
+            <h1 class="logo-name">Baseball 101</h1>
+            <!-- Responsive Button for the smaller menu -->
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <!-- Links -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                           data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Game Basics
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="baseballIntro.html">Introduction To Baseball</a>
+                            <a class="dropdown-item" href="baseballTerms.html">Baseball Terms</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbardrop"
+                           data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Explore The Game
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="featuredPlayers.html">Featured Players</a>
+                            <a class="dropdown-item" href="teamGuide.html">MLB Team Guide</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="wall">
+            <div class="wall-text">
+                <h1>MLB Team Guide</h1>
+                <p>Explore Major League Baseball teams, their historic stadiums, and fascinating facts.</p>
+            </div>
+        </div>
+    </div>
+    <h2>MLB Teams</h2>
+    <div class="team-cards mb-3">
+        <div class="cards-body">
+            <h5>Baltimore Orioles</h5>
+            <p class="card-text"><strong>City:</strong> Baltimore, MD</p>
+            <p class="card-text"><strong>Stadium:</strong> Oriole Park at Camden Yards</p>
+            <p class="card-text"><strong>Founded:</strong> 1901</p>
+            <p class="card-text"><strong>Fun Fact:</strong> Camden Yards revolutionized ballpark design when it opened in 1992</p>
+        </div>
+        <div class="cards-body">
+            <h5>New York Yankees</h5>
+            <p><strong>City:</strong> New York, NY</p>
+            <p><strong>Stadium:</strong> Yankee Stadium</p>
+            <p><strong>Founded:</strong> 1901</p>
+            <p><strong>Fun Fact:</strong> The Yankees have won 27 World Series, more than any other team</p>
+        </div>
+        <div class="cards-body">
+            <h5>Tampa Bay Rays</h5>
+            <p><strong>City:</strong> St. Petersburg, FL</p>
+            <p><strong>Stadium:</strong> Tropicana Field</p>
+            <p><strong>Founded:</strong> 1998</p>
+            <p><strong>Fun Fact:</strong> Only team to play in a domed stadium with artificial turf</p>
+        </div>
+    </div>
+
+
+    <!------------------------------->
+    <footer class="footer page-footer font-small ">
+        <div class="container">
+            <div class="row">
+                <span class="text-muted">&copy; Baez Juan, 2025 |  Terms Of Use  |  Privacy Statement</span>
+            </div>
+        </div>
+    </footer>
+</div>
+
+
+<!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+</body>
+</html>
